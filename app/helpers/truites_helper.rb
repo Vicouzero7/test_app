@@ -1,0 +1,2 @@
+module TruitesHelper
+end

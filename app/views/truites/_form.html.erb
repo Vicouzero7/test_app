@@ -1,0 +1,22 @@
+<%= form_for(truite) do |f| %>
+  <% if truite.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(truite.errors.count, "error") %> prohibited this truite from being saved:</h2>
+
+      <ul>
+      <% truite.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :content %>
+    <%= f.text_field :content %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

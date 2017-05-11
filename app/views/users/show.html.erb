@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+<div style="text-align:left; ">
+<p>
+  <strong>Name:</strong>
+  <%= @user.name %>
+</p>
+
+<p>
+  <strong>Img url:</strong>
+  <img class="img-user" src="<%= @user.img_url %>">
+</p>
+
+<%= link_to 'Edit', edit_user_path(@user) %>
+<%= link_to 'Back', users_path %>
+</div>

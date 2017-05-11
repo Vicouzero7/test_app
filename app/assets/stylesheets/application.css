@@ -1,0 +1,121 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ body a {
+ 	display: block;
+ 	color: #fff;
+ 	padding: 2px 5px;
+ 	border-radius: 5px;
+ 	background-color: #1ac354;
+ 	margin: 5px 0;
+ 	width: 100px;
+ 	text-align: center;
+ 	text-decoration: none;
+
+ }
+ body a:hover {
+ 	background-color: #5DE38C;
+ }
+
+ body a.btn-manag {
+ 	display: block;
+ 	color: #fff;
+ 	padding: 10px 15px;
+ 	border-radius: 5px;
+ 	background-color: #1ac354;
+ 	width: 150px;
+ 	text-align: center;
+ 	text-decoration: none;
+
+ }
+ body a.btn-manag:hover {
+ 	background-color: #5DE38C;
+
+ }
+
+ body .img-user {
+ 	width: 120px;
+ 	height: 120px;
+ 	border: 1px solid #626262;
+ 	border-radius: 50%;
+ 	overflow: hidden;
+ }
+
+ body img.img-user {	
+ 	margin: auto 0;
+ }
+
+ td {
+ 	display: block;
+ }
+
+ body .rm-marg {
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+ .centered {
+ 	text-align: center;
+ }
+ .display-users {
+ 	width: 80%;
+ 	text-align: center;
+ 	margin-left: 10%;
+ 	background-color: #E7FFDF;
+ 	border-radius: 15px;	
+ 	margin: 20px auto;
+ 	border: 1px solid #C7FFCF;
+ 	box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+ }
+
+ body {
+ 	background-color: #F2FFEA !important;
+ }
+
+ a.btn-show {
+ 	display: block;
+ 	color: #fff;
+ 	padding: 10px 15px;
+ 	border-radius: 5px;
+ 	background-color: #1ac354;
+ 	width: 150px;
+ 	text-align: center;
+ 	text-decoration: none;
+
+ }
+ a.btn-show:hover {
+ 	display: block;
+ 	color: #fff;
+ 	padding: 10px 15px;
+ 	border-radius: 5px;
+ 	background-color: #5DE38C;
+ 	width: 150px;
+ 	text-align: center;
+ 	text-decoration: none;
+
+ }
+
+
+a#add-user-btn {
+	background-color: #1ac354;
+	border-radius: 50%;
+}
+
+a#add-user-btn {
+	font-size: 70px;
+	border-radius: 50%;
+	border: 1px solid #626262;
+}
